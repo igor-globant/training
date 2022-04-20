@@ -1,4 +1,4 @@
-package com.example.newsapiclient.data.API
+package com.example.newsapiclient.data.api
 
 import com.example.newsapiclient.BuildConfig
 import com.example.newsapiclient.data.model.APIResponse
