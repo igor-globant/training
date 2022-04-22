@@ -5,5 +5,5 @@ import com.example.newsapiclient.domain.repository.NewsRepository
 
 class SaveNewsUseCase(private val newsRepository: NewsRepository) {
 
-    suspend fun saveNews(article: Article) = newsRepository.saveNews(article)
+    suspend fun execute(article: Article) = newsRepository.saveNews(article)
 }
